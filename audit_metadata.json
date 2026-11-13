@@ -1,0 +1,885 @@
+{
+  "source_repo": "apache/httpd",
+  "source_url": "https://github.com/apache/httpd",
+  "audit_date": "2026-11-13T11:04:38.068083",
+  "scanner_version": "1.3.0",
+  "findings_count": 109,
+  "severity_breakdown": {
+    "CRITICAL": 10,
+    "HIGH": 99
+  },
+  "findings": [
+    {
+      "id": "C-FMT-001",
+      "name": "Format string vulnerability",
+      "severity": "CRITICAL",
+      "cwe": "CWE-134",
+      "file": "support/suexec.c",
+      "line": 392
+    },
+    {
+      "id": "C-FMT-001",
+      "name": "Format string vulnerability",
+      "severity": "CRITICAL",
+      "cwe": "CWE-134",
+      "file": "support/suexec.c",
+      "line": 397
+    },
+    {
+      "id": "C-FMT-001",
+      "name": "Format string vulnerability",
+      "severity": "CRITICAL",
+      "cwe": "CWE-134",
+      "file": "support/suexec.c",
+      "line": 429
+    },
+    {
+      "id": "C-FMT-001",
+      "name": "Format string vulnerability",
+      "severity": "CRITICAL",
+      "cwe": "CWE-134",
+      "file": "support/suexec.c",
+      "line": 443
+    },
+    {
+      "id": "C-FMT-001",
+      "name": "Format string vulnerability",
+      "severity": "CRITICAL",
+      "cwe": "CWE-134",
+      "file": "support/suexec.c",
+      "line": 453
+    },
+    {
+      "id": "C-FMT-001",
+      "name": "Format string vulnerability",
+      "severity": "CRITICAL",
+      "cwe": "CWE-134",
+      "file": "support/suexec.c",
+      "line": 484
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "support/suexec.c",
+      "line": 247
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "support/suexec.c",
+      "line": 505
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "support/suexec.c",
+      "line": 506
+    },
+    {
+      "id": "C-PRIVESC-001",
+      "name": "Unsafe setuid/privilege drop",
+      "severity": "HIGH",
+      "cwe": "CWE-273",
+      "file": "support/suexec.c",
+      "line": 545
+    },
+    {
+      "id": "C-PRIVESC-001",
+      "name": "Unsafe setuid/privilege drop",
+      "severity": "HIGH",
+      "cwe": "CWE-273",
+      "file": "support/suexec.c",
+      "line": 554
+    },
+    {
+      "id": "C-PRIVESC-001",
+      "name": "Unsafe setuid/privilege drop",
+      "severity": "HIGH",
+      "cwe": "CWE-273",
+      "file": "support/suexec.c",
+      "line": 555
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "modules/http/http_request.c",
+      "line": 537
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "modules/filters/mod_proxy_html.c",
+      "line": 890
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "modules/filters/mod_proxy_html.c",
+      "line": 1067
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "modules/md/md_result.c",
+      "line": 34
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "modules/md/md_result.c",
+      "line": 43
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "modules/md/md_result.c",
+      "line": 71
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "modules/md/md_result.c",
+      "line": 106
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "modules/ssl/ssl_ct_sct.c",
+      "line": 47
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "modules/ssl/ssl_ct_sct.c",
+      "line": 246
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "modules/ssl/ssl_ct_sct.c",
+      "line": 260
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "modules/ssl/ssl_ct_sct.c",
+      "line": 220
+    },
+    {
+      "id": "C-BOF-001",
+      "name": "Buffer overflow via unsafe string function",
+      "severity": "CRITICAL",
+      "cwe": "CWE-120",
+      "file": "modules/dav/main/mod_dav.c",
+      "line": 2110
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "modules/dav/main/mod_dav.c",
+      "line": 141
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "modules/dav/main/mod_dav.c",
+      "line": 155
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "modules/dav/main/mod_dav.c",
+      "line": 168
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "modules/dav/main/mod_dav.c",
+      "line": 189
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "modules/dav/main/mod_dav.c",
+      "line": 935
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "modules/dav/main/mod_dav.c",
+      "line": 1398
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "modules/dav/main/mod_dav.c",
+      "line": 1399
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "modules/dav/main/mod_dav.c",
+      "line": 3057
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "modules/dav/main/mod_dav.c",
+      "line": 3476
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "support/firehose.c",
+      "line": 205
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "support/firehose.c",
+      "line": 208
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "support/firehose.c",
+      "line": 674
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "support/firehose.c",
+      "line": 721
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "support/firehose.c",
+      "line": 750
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "modules/arch/unix/mod_privileges.c",
+      "line": 35
+    },
+    {
+      "id": "C-PRIVESC-001",
+      "name": "Unsafe setuid/privilege drop",
+      "severity": "HIGH",
+      "cwe": "CWE-273",
+      "file": "modules/arch/unix/mod_privileges.c",
+      "line": 156
+    },
+    {
+      "id": "C-PRIVESC-001",
+      "name": "Unsafe setuid/privilege drop",
+      "severity": "HIGH",
+      "cwe": "CWE-273",
+      "file": "modules/arch/unix/mod_privileges.c",
+      "line": 160
+    },
+    {
+      "id": "C-PRIVESC-001",
+      "name": "Unsafe setuid/privilege drop",
+      "severity": "HIGH",
+      "cwe": "CWE-273",
+      "file": "modules/arch/unix/mod_privileges.c",
+      "line": 265
+    },
+    {
+      "id": "C-PRIVESC-001",
+      "name": "Unsafe setuid/privilege drop",
+      "severity": "HIGH",
+      "cwe": "CWE-273",
+      "file": "modules/arch/unix/mod_privileges.c",
+      "line": 270
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "server/protocol.c",
+      "line": 616
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "server/protocol.c",
+      "line": 650
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "server/protocol.c",
+      "line": 653
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "server/protocol.c",
+      "line": 673
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "server/protocol.c",
+      "line": 1065
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "server/protocol.c",
+      "line": 1365
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "server/protocol.c",
+      "line": 1366
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "server/protocol.c",
+      "line": 1367
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "server/protocol.c",
+      "line": 2026
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "modules/filters/mod_reflector.c",
+      "line": 183
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "modules/http2/h2_ws.c",
+      "line": 143
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "modules/metadata/mod_usertrack.c",
+      "line": 168
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "modules/metadata/mod_usertrack.c",
+      "line": 285
+    },
+    {
+      "id": "C-BOF-001",
+      "name": "Buffer overflow via unsafe string function",
+      "severity": "CRITICAL",
+      "cwe": "CWE-120",
+      "file": "modules/aaa/mod_authn_socache.c",
+      "line": 274
+    },
+    {
+      "id": "C-FMT-001",
+      "name": "Format string vulnerability",
+      "severity": "CRITICAL",
+      "cwe": "CWE-134",
+      "file": "modules/http2/h2_session.c",
+      "line": 763
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "modules/http2/h2_session.c",
+      "line": 943
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "modules/http2/h2_session.c",
+      "line": 982
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "modules/http2/h2_session.c",
+      "line": 1002
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "modules/http2/h2_session.c",
+      "line": 1004
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "server/main.c",
+      "line": 595
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "server/main.c",
+      "line": 600
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "server/main.c",
+      "line": 609
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "server/main.c",
+      "line": 630
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "modules/aaa/mod_allowhandlers.c",
+      "line": 83
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "modules/dav/main/util.c",
+      "line": 40
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "modules/dav/main/util.c",
+      "line": 71
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "modules/dav/main/util.c",
+      "line": 465
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "modules/dav/main/util.c",
+      "line": 698
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "modules/dav/main/util.c",
+      "line": 1743
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "modules/dav/main/util.c",
+      "line": 1748
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "modules/dav/main/util.c",
+      "line": 1828
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "modules/dav/main/util.c",
+      "line": 1882
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "modules/dav/main/util.c",
+      "line": 1891
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "modules/dav/main/util.c",
+      "line": 1936
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "modules/dav/main/util.c",
+      "line": 1968
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "modules/cache/cache_util.c",
+      "line": 160
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "modules/cache/cache_util.c",
+      "line": 322
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "modules/cache/cache_util.c",
+      "line": 924
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "modules/http3/quic/detail/h3q_tls.c",
+      "line": 102
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "modules/http/mod_mime.c",
+      "line": 271
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "modules/http/mod_mime.c",
+      "line": 272
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "modules/http/mod_mime.c",
+      "line": 288
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "modules/http/mod_mime.c",
+      "line": 289
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "modules/http/mod_mime.c",
+      "line": 323
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "modules/http/mod_mime.c",
+      "line": 883
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "modules/http/mod_mime.c",
+      "line": 910
+    },
+    {
+      "id": "C-INT-001",
+      "name": "Integer overflow in size calculation",
+      "severity": "HIGH",
+      "cwe": "CWE-190",
+      "file": "modules/ssl/ssl_engine_config.c",
+      "line": 2572
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "modules/ssl/ssl_engine_config.c",
+      "line": 106
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "modules/ssl/ssl_engine_config.c",
+      "line": 718
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "modules/ssl/ssl_engine_config.c",
+      "line": 57
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "modules/ssl/ssl_engine_config.c",
+      "line": 205
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "modules/ssl/ssl_engine_config.c",
+      "line": 213
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "modules/ssl/ssl_engine_config.c",
+      "line": 1640
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "modules/ssl/ssl_engine_config.c",
+      "line": 2418
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "modules/ssl/ssl_engine_config.c",
+      "line": 2427
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "modules/ssl/ssl_engine_config.c",
+      "line": 2572
+    },
+    {
+      "id": "C-BOF-001",
+      "name": "Buffer overflow via unsafe string function",
+      "severity": "CRITICAL",
+      "cwe": "CWE-120",
+      "file": "modules/filters/mod_xml2enc.c",
+      "line": 305
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "modules/filters/mod_xml2enc.c",
+      "line": 127
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "modules/filters/mod_xml2enc.c",
+      "line": 317
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "modules/filters/mod_xml2enc.c",
+      "line": 343
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "modules/filters/mod_xml2enc.c",
+      "line": 674
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "modules/filters/mod_xml2enc.c",
+      "line": 683
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "modules/mappers/mod_userdir.c",
+      "line": 106
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "modules/mappers/mod_userdir.c",
+      "line": 118
+    },
+    {
+      "id": "C-UAF-001",
+      "name": "Use-after-free pattern",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "server/error_bucket.c",
+      "line": 37
+    },
+    {
+      "id": "C-NULLDEREF-001",
+      "name": "Missing NULL check after allocation",
+      "severity": "HIGH",
+      "cwe": "CWE-476",
+      "file": "server/error_bucket.c",
+      "line": 48
+    }
+  ]
+}
